@@ -238,3 +238,22 @@ img {
 .show-popup {
   display: block;
 }
+
+.controls__img {
+  width: 35px;
+  height: 35px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.controls {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateY(-50%);
+  padding: 0.25rem 0.5rem;
+  background-color: var(--first-color-lighter);
+  border-radius: 0.75rem;
+  z-index: var(--z-tooltip);
+  overflow: hidden;
+}
