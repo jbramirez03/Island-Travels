@@ -41,9 +41,9 @@
     </header>
 
     <main class="main">
-      <div>
-        <div>
-          <section class="islands">
+      <div class="swiper-container gallery-top">
+        <div class="swiper-wrapper">
+          <section class="islands swiper-slide">
             <img src="assets/img/borabora.jpg" alt="" class="islands__bg" />
 
             <div class="islands__container bd-container">
@@ -68,7 +68,7 @@
             </div>
           </section>
 
-          <section class="islands">
+          <section class="islands swiper-slide">
             <img src="assets/img/bali.jpg" alt="" class="islands__bg" />
 
             <div class="islands__container bd-container">
@@ -93,7 +93,7 @@
             </div>
           </section>
 
-          <section class="islands">
+          <section class="islands swiper-slide">
             <img src="assets/img/palawan.jpg" alt="" class="islands__bg" />
 
             <div class="islands__container bd-container">
@@ -137,11 +137,23 @@
         </div>
       </div>
 
-      <div class="controls">
-        <div class="controls__container">
-          <img src="assets/img/borabora.jpg" alt="" class="controls__img" />
-          <img src="assets/img/bali.jpg" alt="" class="controls__img" />
-          <img src="assets/img/palawan.jpg" alt="" class="controls__img" />
+      <div class="controls gallery-thumbs">
+        <div class="controls__container swiper-wrapper">
+          <img
+            src="assets/img/borabora.jpg"
+            alt=""
+            class="controls__img swiper-slide"
+          />
+          <img
+            src="assets/img/bali.jpg"
+            alt=""
+            class="controls__img swiper-slide"
+          />
+          <img
+            src="assets/img/palawan.jpg"
+            alt=""
+            class="controls__img swiper-slide"
+          />
         </div>
       </div>
     </main>

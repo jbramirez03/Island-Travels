@@ -26,3 +26,16 @@ const btnCloseVideo = document.getElementById('popup-close');
 btnCloseVideo.addEventListener('click', () => {
     islandsPopup.classList.remove('show-popup');
 });
+
+let galleryThumbs = new Swiper('.gallery-thumbs', {
+    spaceBetween: 0,
+    slidesPerView: 0
+});
+
+let galleryTop = new Swiper('.gallery-top', {
+    effect: 'fade',
+    loop: true,
+    thumbs: {
+        swiper: galleryThumbs
+    }
+});
